@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────────────────────
+# CARS Backend — Python 3.14 compatible requirements
+#
+# WHY loose versions (>=) instead of hard pins (==)?
+#   Python 3.14 is very new. Hard-pinned old versions may not have
+#   wheels built for 3.14 yet and will fail to install. Loose ranges
+#   let pip pull the latest release that already ships a 3.14 wheel.
+#
+# WHY no uvloop / httptools?
+#   Both are C-extension packages. Wheels for Python 3.14 may not
+#   exist yet. Uvicorn runs fine in pure-Python mode without them
+#   (slightly lower throughput — fine for development & MVP).
+# ──────────────────────────────────────────────────────────────────
+
+fastapi>=0.115.0
+uvicorn>=0.32.0
+pydantic>=2.9.0
+python-dotenv>=1.0.0

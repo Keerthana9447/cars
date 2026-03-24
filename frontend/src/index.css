@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0f1117;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.ring-track { fill: none; stroke: #1e2430; stroke-width: 10; }
+.ring-fill  { fill: none; stroke-width: 10; stroke-linecap: round;
+               transition: stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1), stroke 0.5s; }
