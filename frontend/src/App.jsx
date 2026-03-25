@@ -95,8 +95,8 @@ export default function App() {
         <div className="flex items-center gap-3 mb-6">
           <div className="w-9 h-9 bg-blue-600/30 border border-blue-500/50 rounded-lg flex items-center justify-center text-lg">🏍</div>
           <div>
-            <h1 className="text-base font-semibold leading-tight">Context-Aware Riding Score</h1>
-            <p className="text-xs text-slate-400">AI-powered two-wheeler behavior analysis</p>
+            <h1 className="text-base font-semibold leading-tight">AlgoRiders</h1>
+            <p className="text-xs text-slate-400">Driven by Data, Defined by Context</p>
           </div>
           <div className="ml-auto flex items-center gap-4">
             {/* API status */}
